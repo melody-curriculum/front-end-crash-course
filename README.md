@@ -33,11 +33,13 @@
 - Attributes allow you to add additional information to a tag.
 - Attributes also allow you to bridge the gap between HTML and CSS.
 
-`<h1>Hello World!</h1>`
+```html
+<h1>Hello World!</h1>
+```
 
 ####Layout for an HTML file
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -72,7 +74,7 @@
 
 ####CSS Syntax
 
-```
+```css
 h1 {
 	color: #FF9966;
 	text-align: center;
@@ -87,14 +89,14 @@ h1 {
 
 HTML:
 
-```
+```html
 <div id=“header”>
 	<h1>Welcome to my website</h1>	
 </div>
 ``` 
 CSS: hash/pound sign designate an id
 
-```
+```css
 #header{
 	text-align: center;
 	color: red;
@@ -108,7 +110,7 @@ CSS: hash/pound sign designate an id
 
 HTML:
 
-```
+```html
 <div class=“paragraph”>
      Here are my favorite hobbies:
      skateboarding, scuba diving, and
@@ -118,7 +120,7 @@ HTML:
 ```
 CSS: a period designates a class
 
-```
+```css
 .paragraph {
 	color: green;
 }
